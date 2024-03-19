@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #
 #   In this module, we are going to look at some familiar concepts that we have
 #   seen before. You will notice that many of the things you have learned in
@@ -24,9 +24,13 @@ obj_1 = "The quick brown fox jumps over the lazy dog."
 obj_2 = [1, 2, 3, 4, 5]
 obj_3 = ("Red", "Blue", "Green")
 obj_4 = {6, 7, 8, 9}
+print(type(obj_1))
+print(type(obj_2))
+print(type(obj_3))
+print(type(obj_4))
 
 ###############################################################################
-# TODO: 2. (4 pts)
+# DONE: 2. (4 pts)
 #
 #   Also, remember that these objects have methods that we have used to perform
 #   specific tasks on them.
@@ -42,3 +46,11 @@ obj_4 = {6, 7, 8, 9}
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+obj_1_2 = obj_1.replace("fox", "cat")
+obj_2.remove(2)
+obj_3_2 = obj_3.index("Red")
+obj_4.pop()
+print(obj_1_2)
+print(obj_2)
+print(obj_3_2)
+print(obj_4)
