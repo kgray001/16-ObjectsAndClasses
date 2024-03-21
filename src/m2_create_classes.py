@@ -26,7 +26,7 @@ class Pet:
         return f"Name: {self.name}, Age: {self.age}"
     
     def speak(self):
-        print(f"{self.name}: Meow! Meow!")
+        print(f"{self.name}: Bark! Bark! Bark!")
 
 ###############################################################################
 # DONE: 2. (2 pts)

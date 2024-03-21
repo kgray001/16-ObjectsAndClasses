@@ -7,7 +7,7 @@ class Pet:
         return f"Name: {self.name}, Age: {self.age}"
     
     def speak(self):
-        print(f"{self.name}: Meow! Meow!")
+        print(f"{self.name}: Bark! Bark! Bark!")
 
 ###############################################################################
 # DONE: 1. (1 pt)
@@ -21,7 +21,7 @@ class Pet:
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-myPet = Pet("Comet", 4)
+myPet = Pet("Rupert", 12)
 
 ###############################################################################
 # DONE: 2. (1 pt)
@@ -52,5 +52,5 @@ myPet.speak()
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-myPet.age = 5
+myPet.age = 15
 print(myPet)
